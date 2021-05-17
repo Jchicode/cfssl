@@ -1,4 +1,4 @@
-module github.com/Jchicode/cfssl
+module github.com/cloudflare/cfssl
 
 go 1.14
 
@@ -29,3 +29,4 @@ require (
 	google.golang.org/appengine v1.6.6 // indirect
 )
 replace github.com/coreos/bbolt => go.etcd.io/bbolt v1.3.5
+replace github.com/Jchicode/cfssl => github.com/cloudflare/cfssl v1.5.0
